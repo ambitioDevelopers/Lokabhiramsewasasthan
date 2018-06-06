@@ -1,28 +1,25 @@
-var slideIndex = 1;
-showSlides(slideIndex);
+var $item = $('.carousel-item'); 
+var $wHeight = $(window).height();
+$item.eq(0).addClass('active');
+$item.height($wHeight); 
+$item.addClass('full-screen');
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+$('.carousel img').each(function() {
+  var $src = $(this).attr('src');
+  var $color = $(this).attr('data-color');
+  $(this).parent().css({
+    'background-image' : 'url(' + $src + ')',
+    'background-color' : $color
+  });
+  $(this).remove();
+});
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+$(window).on('resize', function (){
+  $wHeight = $(window).height();
+  $item.height($wHeight);
+});
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-} 
+$('.carousel').carousel({
+  interval: 6000,
+  pause: "false"
+});
