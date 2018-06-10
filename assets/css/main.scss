@@ -6,8 +6,7 @@
 // 
 // Quickly modify global styling by enabling or disabling optional features.
   
-@import url('https://fonts.googleapis.com/css?family=IndieFlower'); 
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower'); 
+@import url('https://fonts.googleapis.com/css?family=Noto Sans'); 
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower'); 
 @import url('https://fonts.googleapis.com/css?family=Droid Serif'); 
 $enable-rounded:            true !default;
@@ -29,7 +28,7 @@ $theme-colors: (
   info: #ccc,
   success: #28a745,
   warning: #ffc107,
-  danger: #dc3545
+  danger: #dc3545,
 );
 
 $body-bg: white;
@@ -37,14 +36,18 @@ $body-color: #333;
 
 
 $body-color-inverse: invert($body-color) !default;
-$link-color: #12bbad;
+$link-color: #fff;
+
 
 // Fonts
-$font-family-base: IndieFlower;
+$font-family-base: Noto Sans;
 
 
-$headings-font-family: $font-family-base;
-$display-font-family: $font-family-base;
+
+$headings-font-family: Noto Sans;
+
+$display-font-family: Noto Sans;
+
 $font-weight-normal: 200;
 $headings-font-weight: 200;
 $lead-font-size:   1.30rem;
@@ -59,7 +62,7 @@ html,body {
 }
 
 .cover {
-	min-height:100%;
+  min-height:100%;
   display:flex;
   align-items:center
 }

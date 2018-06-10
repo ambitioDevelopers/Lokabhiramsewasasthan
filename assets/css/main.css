@@ -1,6 +1,7 @@
 /*!
 * Based on Bootstrap v4.0.0 (https://getbootstrap.com) 
 */
+@import url("https://fonts.googleapis.com/css?family=Noto Sans");
 @import url("https://fonts.googleapis.com/css?family=IndieFlower");
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
@@ -25,8 +26,8 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #FBB204;
-  --secondary: #Fb8304;
+  --primary: #Fb8304;
+  --secondary: #FBB204;
   --success: #28a745;
   --info: #ccc;
   --warning: #ffc107;
@@ -62,7 +63,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: Hind Siliguri;
+  font-family: Noto Sans;
   font-size: 1rem;
   font-weight: 200;
   line-height: 1.5;
@@ -144,12 +145,12 @@ sup {
   top: -.5em; }
 
 a {
-  color: #12bbad;
+  color: #fff;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:hover {
-    color: #0b756c;
+    color: #914A00;
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
@@ -306,7 +307,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.75rem;
-  font-family: Hind Siliguri;
+  font-family: Noto Sans;
   font-weight: 200;
   line-height: 1.2;
   color: inherit; }
@@ -2024,10 +2025,10 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 200;
-  color: #12bbad;
+  color: #fff;
   background-color: transparent; }
   .btn-link:hover {
-    color: #0b756c;
+    color: #d9d9d9;
     text-decoration: underline;
     background-color: transparent;
     border-color: transparent; }
@@ -3180,11 +3181,11 @@ tbody.collapse.show {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #12bbad;
+  color: #fff;
   background-color: #fff;
   border: 1px solid #dee2e6; }
   .page-link:hover {
-    color: #0b756c;
+    color: #d9d9d9;
     text-decoration: none;
     background-color: #e9ecef;
     border-color: #dee2e6; }
@@ -3757,7 +3758,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: IndieFlower;
+  font-family: Noto Sans;
   font-style: normal;
   font-weight: 200;
   line-height: 1.5;
@@ -3842,7 +3843,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: IndieFlower;
+  font-family: Noto Sans;
   font-style: normal;
   font-weight: 200;
   line-height: 1.5;
