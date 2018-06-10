@@ -2,45 +2,54 @@
 <html>
 
 <head>
+  <!--webpage name-->
+  <title>Lokabhiram sewa sansthan</title>
+  <!--meta-data-->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- PAGE settings -->
-  <title>Lokabhiramsewasansthan</title>
-  <!-- CSS dependencies -->
-  <link rel="stylesheet" href="../css/landing.css">
+  <!--font-awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <!-- CSS dependencies -->
   <link rel="stylesheet" href="../css/main.css">
   <link rel="stylesheet" href="../css/Select.css">
-  <link href="https://fonts.googleapis.com/css?family=Sanchez" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri|Sanchez" rel="stylesheet">
-  <link rel="stylesheet" href="../images/icon/vectorlogo.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"> 
-  </head>
+  <!--google-fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri|Sanchez" rel="stylesheet"> </head>
 
 <body class="">
-  <nav class="navbar navbar-expand-md navbar-dark bg-primary sticky-top">
+  <nav class="navbar navbar-expand-md sticky-top  bg-primary">
     <div class="container-fluid">
       <a class="navbar-brand mx-5" href="#">
-        <img src="../images/Lokabhiramsmall.png" class="" height="92" width="92"> </a>
+        <img src="../images/Lokabhiram.svg" class="mx-auto px-5"> </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse text-center justify-content-end" id="navbar2SupportedContent">
-        <ul class="navbar-nav mx-3">
+        <ul class="navbar-nav text-white">
           <li class="nav-item">
-            <a class="nav-link" href="#read_more"> About</a>
+            <a class="nav-link" href="#read_more">
+              <b>About Us /</b>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#work">Our work</a>
+            <a class="nav-link" href="#work">
+              <b>Our Work / </b>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Gallery"> Gallery</a>
+            <a class="nav-link" href="#Gallery">
+              <b>Gallery / </b>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact"> Contacts</a>
+            <a class="nav-link" href="#contact">
+              <b>Contact Us </b>
+            </a>
           </li>
         </ul>
-        <a style="border:" class="btn navbar-btn ml-2 text-white mx-4 btn-lg btn-secondary" href="../pages/form.html#container3">DONATE</a>
+        <a class="btn navbar-btn ml-2 text-white mx-4 btn-lg btn-secondary" href="../pages/form.html#container3">
+          <b> Donation </b>
+        </a>
       </div>
     </div>
   </nav>
@@ -48,34 +57,39 @@
     <div>
       <!-- Carousel Card -->
       <div class="card card-raised card-carousel">
-        <div class="carousel slide" data-interval="1500" data-ride="carousel" id="carouselExampleIndicators">
+        <div class="carousel slide" data-interval="2000" data-ride="carousel" id="carouselExampleIndicators">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100 " src="../images/pexels-photo-674800.jpeg" alt="First slide">
+              <img class="d-block w-100 " src="../images/slides/old_age_home.png" alt="First slide">
               <!--Caption for slide1
-               <div class="carousel-caption d-none d-md-block">
+               <div class="carousel-caption d-none d-md-block text-dark">
+               <p>चालीस युवाओं की बुढ़ापे है; वृद्धावस्था के पचास युवा। <br>विक्टर ह्यूगो द्वारा</p>
               </div>
-              -->
-            </div>
+              <!--eof caption slide1--></div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="../images/pexels-photo-751072.jpeg" alt="Second slide">
+              <img class="d-block w-100" src="../images/slides/Cow_shelter.png" alt="Second slide">
               <!--Caption for slide2
                <div class="carousel-caption d-none d-md-block">
               </div>
-              -->
-            </div>
+              --></div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="../images/pexels-photo-751077.jpeg" alt="Third slide">
+              <img class="d-block w-100" src="../images/slides/group_marriage.png" alt="Third slide">
               <!--Caption for slide3
                <div class="carousel-caption d-none d-md-block">
               </div>
-              -->
-            </div>
+              --></div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="../images/slides/school_kid.png" alt="Third slide">
+              <!--Caption for slide3
+               <div class="carousel-caption d-none d-md-block">
+              </div>
+              --></div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <i class="material-icons"></i>
@@ -94,58 +108,114 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 p-4 text-center">
-          <h1 class="display-3 mb-3 text-white text-center"> Our Mission </h1>
+          <h1 class="display-3 mb-3 text-white text-center">Our Mission </h1>
           <div>
-            <p class="mb-0 text-white my-3">Here is a description of your mission and goals. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mattis turpis vel ex semper, feugiat tincidunt quam mollis. Etiam malesuada molestie lacinia. Donec neque lectus, ornare ac massa
-              vitae, faucibus vestibulum</p>
+            <p class="mb-0 text-white my-3">The establishment of an old Age Homes, protection of the disabled cows, promoting the importance of cows, the marriage of the poor girls as well as the religious services of the Lord Ram Katha, Bhagwat Katha, the religious work.To educate the poor children and to awaken the spirit of nation welfare.</p>
           </div>
-          <a class="btn text-white text-center text-capitalize btn-lg btn-primary my-3 about" href="#about_us" id="read_more">Read About us :</a>
+          <a class="btn text-white btn-lg btn-primary my-3" href="#about_us" id="read_more">Read About Us:</a>
         </div>
       </div>
     </div>
   </div>
-  <div class="py-5" style="background-color: #F8C957" id="about_us">
+  <div class="py-5 bg-secondary" style="background-color: #F8AA57" id="about_us">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 h-100">
-          <h1 class="display-3 text-white text-left">About us</h1>
-          <p class="text-white py-3 text-justify">
-            <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</b>Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <div class="row mx-auto text-center p-5">
-            <div class="col-md-6">
-              <img class="img-fluid d-block mx-auto" src="../images/Parallax.jpg">
-              <h1 class="text-center text-white my-2">Founder</h1>
+        <div class="col-md-12">
+          <p class="mb-0 text-white my-3">The Public Service Institute is registered with the Registration Number: 3037, 2017- 18, under the Societies Registration Act 1860. Lokabhiram Seva Sansthan Shri Ram Katha, Bhagwat Katha, along with religious works as well as the marriage of poor girls, old ashram, cows.To promote the importance, to help the sick helpless, handicapped cows, to create an old cottage in the villages; To educate the poor children and to awaken the spirit of nation welfare. </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 justify-content-center">
+          <h2 class="text-white">The main goals of Lokabhiram Seva Sansthan:</h2>
+          <!--<p class="text-white py-3 text-justify"> </p>-->
+          <ol class="text-white">
+            <li>Develop social, mental, ethical, characteristic and intellectual development of the people.</li>
+            <li>Invite the story readers from time to time and to benefit the common people through their discourses.</li>
+            <li>Organizing cultural programs, spiritual programs from time to time.</li>
+            <li>Arranging the knowledge building library and reading room.</li>
+            <li>Helping the marriage of poor girls and motivating them for mass marriage and dowry marriage.</li>
+            <li>Arrangement of accommodation for visitors from outside and arranging free meals.</li>
+            <li>Children of the society, Adivasi, disabled, destitute, free education for children, arrangement of food, medical and housing. </li>
+            <li>From time to time cultural programs, academic programs, seminars, conferences, seminars, conference seminars, yoga programs, awareness camps, pulse poles immunization, health camps, eye camps, blood donation camps, social awareness exhibitions Organizing etc.</li>
+            <li>To organize nation unity communal harmony camps and awaken the spirit of mutual harmony and world brotherhood among the people.</li>
+            <li>Arranging free education for the poor girls.</li>
+            <li>Arrangement of Janhitarth Vriddha Ashram, Widow Ashram, Short Stay Home</li>
+            <li>To open the Gaushala in village villages and to promote cow protection, to provide care and medical care of sick, helpless, unclaimed and handicapped cows.</li>
+            <li>To propagate the promotion of goods produced from cow and to promote the importance of cow's service in the public,</li>
+            <li> Participation in the programs by the Gauva Seva Commission through programs run by the Gau Seva Commission.</li>
+            <li>Serving Mother India by giving stray and directionless society towards spirituality and providing right direction.</li>
+          </ol>
+          <div class="row">
+           <!--
+            <div class="px-5 d-flex justify-content-center col-md-3">
+              <a href="#" class="btn text-white btn-lg btn-primary" data-toggle="modal" data-target="modal">Membership</a>
             </div>
-            <div class="col-md-6">
-              <img class="img-fluid d-block" src="../images/thailand-monks-temple-tourism-161183.jpeg">
-              <h1 class="text-center text-white my-2">Our inspiration</h1>
+            -->
+            <div class="d-flex justify-content-center px-5 col-md-3">
+              <a href="../docs/Lokabhiramcertificate.pdf" class="btn text-white btn-lg btn-primary" target="_blank">Registration certificate</a>
             </div>
           </div>
         </div>
+        <div class="col-md-12">
+          <div class="container p-3">
+            <div class="team">
+              <h2 class="title text-white text-center">Our Inspiration </h2>
+              <div class="row d-inline-flex justify-content-center text-white">
+                <div class="col-md-4 text-center">
+                  <div class="team-player">
+                    <img src="../images/inspiration/inspiration_jagadguru.png" alt="Thumbnail Image" class="img-fluid img-raised img-thumbnail">
+                    <h2 class="my-2">Jagadguru Ram Bhadracharya</h2>
+                    <p class="description">Jagadguru Ramanandacharya (born on January 14, 1950) is a Hindu religious leader, teacher, Sanskrit scholar, multilingual, poet, writer, reader commentator, philosopher, composer, singer, playwright and Katha artiste in Chitrakoot of India. He is one of the four existing Jagadguru Ramanandacharya and has organized this title since 1988.</p>
+                    <a href="https://en.wikipedia.org/wiki/Rambhadracharya" class="btn btn-icon btn-round btn-light btn-lg">
+                      <i class="fab fa-wikipedia-w"></i>
+                    </a>
+                    <a href="http://www.jagadgururambhadracharya.org/" class="btn btn-icon btn-round btn-light btn-lg">
+                      <i class="fa fa-safari" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--team member
+          <div class="container my-3 text-center">
+            <h2 class="title text-white text-center">Management Committeeि</h2>
+            <div class="team">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="team-player">
+                    <img src="../images/people_1(360x360).jpg" alt="Thumbnail Image" class="img-fluid img-raised rounded">
+                    <h4 class="title">Romina Hadid</h4>
+                    <p class="category text-primary">पद </p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="team-player">
+                    <img src="../images/people_6(360x360).jpg" alt="Thumbnail Image" class="img-fluid img-raised rounded">
+                    <h4 class="title">Ryan Tompson</h4>
+                    <p class="category text-primary">पद </p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="team-player">
+                    <img src="../images/people_1(360x360).jpg" alt="Thumbnail Image" class="img-fluid img-raised rounded">
+                    <h4 class="title">Eva Jenner</h4>
+                    <p class="category text-primary">पद </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--eof team member--></div>
       </div>
     </div>
   </div>
-  <!--button for scroll up-->
-  <a href="#" onclick="topFunction()" id="myBtn" title="Go to top" class="btn btn-lg text-primary btn-light">Top</a>
+  <div class="section section-team text-center"> </div>
   <div class="text-white p-4 bg-primary">
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-right" style="display: inline-block;">
-          <h1 class="display-3 py-3 text-right bolder" id="work"> What we do </h1>
-          <div class="row">
-            <div class="col-md-8">
-              <p class="text-justify lead">Use this space to describe your organization programs. Sed dictum ante a leo cursus mattis. Integer euismod, lorem sed molestie gravida, justo mauris dignissim orci, sed convallis elit ipsum at justo. Donec feugiat justo vitae mollis pretium.
-                Suspendisse ultrices, tellus vitae varius convallis, ipsum justo commodo dui, a feugiat mauris turpis ut turpis. In laoreet magna eu consectetur facilisis. Etiam ut tempus metus. Phasellus maximus eros tempor est pretium. </p>
-            </div>
-            <div class="col-md-2 mx-5">
-              <a class="btn flex-column-reverse text-white btn-lg btn-secondary my-5 btn-block" href="../pages/form.html#container1">Sign up</a>
-            </div>
-          </div>
+          <h1 class="display-3 py-3 text-right bolder" id="work">Our Work:</h1>
         </div>
       </div>
     </div>
@@ -154,16 +224,16 @@
         <div class="py-5 col-md-6">
           <div class="row">
             <div class="col-md-12">
-              <h2 class="mb-3 text-white underlined"> Liutenant approved </h2>
-              <p class="my-1 box-text-align">Code quality is a must. Pingendo generates clean, battle-tested, modular Bootstrap 4 code – with no messy dependencies. </p>
+              <h3 class="mb-3 text-white underlined">Sri Ram Katha, Bhagwat Katha &amp; Religious Work:</h3>
+              <p class="my-1 box-text-align">Invite the story readers from time to time and to benefit the common people through their discourses. Organizing cultural programs, spiritual programs from time to time. </p>
             </div>
           </div>
         </div>
         <div class="py-5 col-md-6">
           <div class="row">
             <div class="col-md-12">
-              <h2 class="mb-3 text-white underlined"> Find your way </h2>
-              <p class="my-1 box-text-align">Design unique interfaces by customizing Bootstrap theme. Modify colors, fonts and grid setting without opening any CSS file. </p>
+              <h3 class="mb-3 text-white underlined">Marriage of Girls: <br> <br></h3>
+              <p class="my-1 box-text-align">Helping the marriage of poor girls and motivating them for mass marriage and dowry marriage. Provide free education for poor girls &nbsp;.</p>
             </div>
           </div>
         </div>
@@ -172,16 +242,16 @@
         <div class="py-5 col-md-6">
           <div class="row">
             <div class="col-md-12">
-              <h2 class="mb-3 text-white underlined"> Start from templates </h2>
-              <p class="my-1 box-text-align">Build with blocks, yet modify easily. Customization is one click away and the graphic possibilities are infinite. </p>
+              <h2 class="mb-3 text-white underlined"> Gaushala and Cow protection: <br> <br></h2>
+              <p class="my-1 box-text-align">To participate in the programs through the Gauva Seva Commission through programs run by the Gau Seva Commission. To open the cow shelter in village and promote cow protection, to provide care and medical care of the sick, helpless, unclaimed and disabled cows.</p>
             </div>
           </div>
         </div>
         <div class="py-5 col-md-6">
           <div class="row">
             <div class="col-md-12">
-              <h2 class="mb-3 text-white underlined"> Made for everyone </h2>
-              <p class="my-1 box-text-align">Work on top of native HTML and SASS files. Extending, customizing and integrating JavaScript is a breeze. With no limits. </p>
+              <h2 class="mb-3 text-white underlined"> Old Age Ashram, Widow Ashram, Short Stay Home:</h2>
+              <p class="my-1 box-text-align">Arrangement of accommodation for visitors from outside and arranging free meals. To organize nation unity communal harmony camps and awaken the spirit of mutual harmony and world brotherhood among the people.</p>
             </div>
           </div>
         </div>
@@ -193,75 +263,80 @@
       <div class="row">
         <div class="align-self-center p-5 col-md-6">
           <h3 class="display-3">Our Gallery</h3>
-          <p class="mb-5 text-justify">Get a fluid web page working on all devices with the Bootstrap 4 grid system.&nbsp; Responsive design made intuitive and effective with Pingendo.</p>
-          <a class="btn btn-lg text-white btn-outline-primary border border-light" href="#allImages"
-            id="viewImagesBtn">View all Images</a>
+          <a class="btn btn-lg text-white btn-primary" href="#allImages" id="viewImagesBtn">See all photos</a>
           <!--          <div class="btn btn-lg text-white btn-outline-primary border border-light" id="viewImagesBtn">View all Images</div>--></div>
         <div class="col-md-6 p-0">
           <div class="carousel slide" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
-                <img src="../images/galleryimg3.jpg" atl="first slide" class="d-block img-fluid w-100">
-                <div class="carousel-caption">
-                  <h3>EventImage</h3>
-                  <p>Image 1</p>
+                <img src="../images/gallery_slide/Event-1.png" atl="first slide" class="d-block img-fluid w-100">
+                <!--
+                 <div class="carousel-caption">
+                  <h3>इवेंट फोटो</h3>
+                  <p>फोटो 1</p>
                 </div>
+                -->
               </div>
               <div class="carousel-item">
-                <img class="d-block img-fluid w-100" src="../images/galleryimg1.jpg" data-holder-rendered="true">
-                <div class="carousel-caption">
-                  <h3>EventImage</h3>
-                  <p>Image 2</p>
+                <img class="d-block img-fluid w-100" src="../images/gallery_slide/Event-2.png" data-holder-rendered="true">
+                <!--
+                 <div class="carousel-caption">
+                  <h3>इवेंट फोटो</h3>
+                  <p>फोटो 2</p>
                 </div>
+                -->
               </div>
               <div class="carousel-item">
-                <img class="d-block img-fluid w-100" src="../images/galleryimg2.jpg" data-holder-rendered="true">
-                <div class="carousel-caption">
-                  <h3>Event Image</h3>
-                  <p>Image 3</p>
+                <img class="d-block img-fluid w-100" src="../images/gallery_slide/Event-3.png" data-holder-rendered="true">
+                <!--
+                 <div class="carousel-caption">
+                  <h3>इवेंट फोटो</h3>
+                  <p>फोटो 3</p>
                 </div>
+                -->
               </div>
             </div>
             <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon"></span>
-              <span class="sr-only">Previous</span>
+              <span class="sr-only"></span>
             </a>
             <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
               <span class="carousel-control-next-icon"></span>
-              <span class="sr-only">Next</span>
+              <span class="sr-only"></span>
             </a>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div style="background-color: #F8C957" class="py-5 text-center " id="allImages">
+  <div style="background-color: #F8C957" class="py-5 bg-secondary" id="allImages">
     <div class="container">
       <div class="row py-2">
         <div class="col-md-4 col-sm-12 p-1">
           <a href="#" class="">
-            <img class="d-block img-fluid mx-auto img-thumbnail" src="https://pingendo.github.io/templates/sections/assets/gallery_1.jpg"> </a>
+            <img class="d-block img-fluid mx-auto img-thumbnail" src="../images/gallery/mass-marriagejpg.jpg"> </a>
         </div>
         <div class="col-md-4 col-sm-6 p-1">
           <a href="#">
-            <img class="d-block img-fluid mx-auto img-thumbnail" src="https://pingendo.github.io/templates/sections/assets/gallery_5.jpg"> </a>
+            <img class="d-block img-fluid mx-auto img-thumbnail" src="../images/gallery/gaushala_1997562_835x547-m_2327310_835x547-m.jpg"> </a>
         </div>
         <div class="col-md-4 col-sm-6 p-1">
           <a href="#">
-            <img class="d-block img-fluid mx-auto img-thumbnail" src="https://pingendo.github.io/templates/sections/assets/gallery_3.jpg"> </a>
+            <img class="d-block img-fluid mx-auto img-thumbnail" src="../images/gallery/Old-Age-Home-in-Delhi-NCR-Provides-the-Best-Services_3_2.jpg"> </a>
         </div>
         <div class="col-md-4 col-sm-12 p-1">
           <a href="#">
-            <img class="d-block img-fluid mx-auto img-thumbnail" src="https://pingendo.github.io/templates/sections/assets/gallery_6.jpg"> </a>
+            <img class="d-block img-fluid mx-auto img-thumbnail" src="../images/gallery/old people_final.jfif"> </a>
         </div>
         <div class="col-md-4 col-sm-6 p-1">
           <a href="#">
-            <img class="d-block img-fluid mx-auto img-thumbnail" src="https://pingendo.github.io/templates/sections/assets/gallery_7.jpg"> </a>
+            <img class="d-block img-fluid mx-auto img-thumbnail" src="../images/gallery/ext.jfif"> </a>
         </div>
         <div class="col-md-4 col-sm-6 p-1">
           <a href="#">
-            <img class="d-block img-fluid mx-auto img-thumbnail" src="https://pingendo.github.io/templates/sections/assets/gallery_8.jpg"> </a>
+            <img class="d-block img-fluid mx-auto img-thumbnail" src="../images/gallery/300811_TheElders_015.jpg"> </a>
         </div>
+        <!--images gallery
         <div class="col-md-4 col-sm-12 p-1">
           <a href="#">
             <img class="d-block img-fluid mx-auto img-thumbnail" src="https://pingendo.github.io/templates/sections/assets/gallery_10.jpg"> </a>
@@ -274,11 +349,11 @@
           <a href="#">
             <img class="d-block img-fluid mx-auto img-thumbnail" src="https://pingendo.github.io/templates/sections/assets/gallery_12.jpg"> </a>
         </div>
-      </div>
-      <div class="row py-2"> </div>
-      <div class="row py-2"> </div>
+        <!--eof image gallery--></div>
+      
     </div>
   </div>
+  <!--pateron--
   <div class="text-white bg-primary">
     <div class="container">
       <div class="row d-flex justify-content-center py-5">
@@ -288,23 +363,23 @@
               <div class="carousel-item active">
                 <img class="d-block img-fluid w-100" src="../images/people_6(360x360).jpg" data-holder-rendered="true">
                 <div class="carousel-caption">
-                  <h3>Patreon
+                  <h3>संरक्षक
                     <br> </h3>
-                  <p>Image 1</p>
+                  <p>फोटो 1</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img class="d-block img-fluid w-100" src="../images/people_1(360x360).jpg" data-holder-rendered="true">
                 <div class="carousel-caption">
-                  <h3>Patreon</h3>
-                  <p>Image 2</p>
+                  <h3>संरक्षक</h3>
+                  <p>फोटो 2</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img class="d-block img-fluid w-100" src="../images/people_5(360x360).jpg" data-holder-rendered="true">
                 <div class="carousel-caption">
-                  <h3>Patreon</h3>
-                  <p>Image 3</p>
+                  <h3>संरक्षक</h3>
+                  <p>फोटो 3</p>
                 </div>
               </div>
             </div>
@@ -319,42 +394,42 @@
           </div>
         </div>
         <div class="align-self-center p-4 col-md-6 col-8">
-          <h1 class="mb-4">Meet our life long patreon</h1>
-          <p class="mb-5 text-justify">Get a fluid web page working on all devices with the Bootstrap 4 grid system.&nbsp; Responsive design made intuitive and effective with Pingendo.</p>
-          <a class="btn btn-lg btn-outline-light" href="../pages/form.html#container2">Become a patreon</a>
+          <h1 class="mb-4">Lifelong guardian and guide</h1>
+          <a class="btn btn-lg btn-outline-light" href="../pages/formhindi.html#container2">Become a mentor</a>
         </div>
       </div>
     </div>
   </div>
-  <div class="text-center bg-secondary">
-    <div class="container">
+  <!--eof pateron-->
+  <div class="text-center bg-primary">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 p-2 col-12">
-          <h1 class="m-2 text-white text-capitalize display-3" id="contact">Connect With us</h1>
-          <p class="lead m-2 text-white">Lorem Ipsum dolor sit amet, consectetur adispiscing elit. Nunc Rutrum consectetur neque, eu ullamcorper Ligula ﬁnibus ac. </p>
+          <h1 class="text-white text-capitalize display-3" id="contact">Contact Us:</h1>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-3 p-4 col-12">
+        <div class="p-4 col-12 col-md-3">
           <div class="row">
             <div class="col-md-12">
               <img class="img-fluid d-block mx-auto py-5" src="../images/icon/locationIcon.png">
-              <p class="text-center text-white my-4">A-965/2, Indira Nagar, Lucknow-226 016,&nbsp;
-                <br>Uttar Pradesh.&nbsp;</p>
+              <p class="text-white">Flat Number: - PS-3/13 / B-1, Panchsheel-3, Option Khand, Gomti Nagar Lucknow</p>
             </div>
           </div>
         </div>
         <div class="col-md-3 p-4">
           <img class="img-fluid d-block mx-auto py-5" src="../images/icon/deviceIcon.png">
-          <p class="text-white text-center my-4">+91 -123-456-789</p>
+          <p class="text-white text-center">+91-8052577770,
+            <br>+91-8052377770,
+            <br>+91-8887732234</p>
         </div>
         <div class="col-md-3 p-4">
           <img class="img-fluid d-block p-5 mx-auto" src="../images/icon/messageicon.png">
-          <p class="text-white text-center my-4 py-2" contenteditable="true">help@lipsum.com</p>
+          <p class="text-white text-center m-2">Lokabhiramsewasansthan@gmail.com</p>
         </div>
         <div class="col-md-3 p-4">
           <img class="img-fluid d-block py-5 mx-auto" src="../images/icon//webicon.png">
-          <p class="text-white my-4">&nbsp;www.lokabhiramsewasansthan.com</p>
+          <p class="text-white">www.lokabhiramsewasansthan.com</p>
         </div>
       </div>
     </div>
@@ -375,41 +450,40 @@
     <div class="container">
       <div class="row">
         <div class="p-4 col-md-4">
-          <h2 class="mb-4 text-white text-center">Important links</h2>
+          <h2 class="mb-4 text-white">Important Link</h2>
           <ul class="list-unstyled">
-            <a href="#about_us" class="text-white">About</a>
+            <a href="#about_us" class="text-white">About Us</a>
             <br>
-            <a href="#" class="text-white">Documents</a>
+            <a href="#work" class="text-white">Our Goal </a>
             <br>
-            <a href="#work" class="text-white">Our services</a>
+            <a href="#" class="text-white">Membership</a>
             <br>
-            <a href="#contact" class="text-white">Contact</a>
+            <a href="../docs/Lokabhiramcertificate.pdf" class="text-white"> Registration certificate </a>
           </ul>
         </div>
         <div class="p-4 col-md-4">
-          <h2 class="mb-4">Contact</h2>
-          <p class="">
-            <a href="tel:+246 - 542 550 5462" class="text-white">
-              <i class="fa d-inline mr-3 text-white fa-phone"></i>+246 - 542 550 5462</a>
-          </p>
-          <p class="">
-            <a href="mailto:info@pingendo.com" class="text-white">
-              <i class="fa d-inline mr-3 text-white fa-envelope-o"></i>info@lorem.com</a>
-          </p>
-          <p>
-            <a href="https://goo.gl/maps/AUq7b9W7yYJ2" class="text-white" target="_blank">
-              <i class="fa d-inline mr-3 fa-map-marker text-white"></i>365 Park Street, NY</a>
-          </p>
+          <h2 class="mb-4">Contact Us</h2>
+          <p class="text-white text-center">+91-8052577770 ,+91-8052377770 ,+91-8887732234</p>
+          <p class="text-white text-center m-2">Lokabhiramsewasansthan@gmail.com</p>
+          <p class="text-white">Flat Number: - PS-3/13 / B-1, Panchsheel-3, Option Khand, Gomti Nagar Lucknow</p>
         </div>
         <div class="p-4 col-md-4">
-          <i class="fa fa-fw fa-twitter fa-2x d-inline-block m-1"></i>
-          <i class="fa fa-fw fa-facebook fa-2x d-inline-block m-1"></i>
-          <i class="fa fa-fw fa-google-plus fa-2x d-inline-block m-1"></i>
-          <i class="fa fa-fw fa-instagram fa-2x d-inline-block m-1"></i>
+         <a href="https://www.facebook.com/lokabhiramsewa/">
+         	<i class="fa fa-fw fa-facebook fa-2x d-inline-block m-1"></i>
+         </a>
+         <a href="https://www.https://plus.google.com">
+         	<i class="fa fa-fw fa-google-plus fa-2x d-inline-block m-1"></i>
+         </a>
+         <a href="https://www.https://youtube.com">
+         	<i class="fa fa-fw fa-youtube fa-2x d-inline-block m-1"></i>
+         </a>
+          <a href="https://www.https://instagram.com">
+         	<i class="fa fa-fw fa-instagram fa-2x d-inline-block m-1"></i>
+         </a>
           <form>
             <fieldset class="form-group text-white">
-              <label for="exampleInputEmail1">Get our newsletter</label>
-              <input type="email" class="form-control" placeholder="Enter email"> </fieldset>
+              <label for="exampleInputEmail1">Subscribe to Newsletter</label>
+              <input type="email" class="form-control" placeholder="Your E-mail"> </fieldset>
             <button type="submit" class="btn btn-outline-light">Submit</button>
           </form>
         </div>
@@ -417,53 +491,55 @@
       <div class="row"> </div>
     </div>
   </div>
+ 
   <div class="bg-primary p-0 text-white text-center">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="col-md-12 mt-3">
-            <p class="text-center text-white">© Copyright 2018 Lokabhiramsewsansthan - All rights reserved. </p>
+            <p class="text-center text-white">©2018 Lokabhiram Seva Sanstha. All rights reserved</p>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <script src="assets/js/custom.js"></script>
-  <script>
-    $("#about_us").toggle();      
-    jQuery("#allImages").toggle();      
-    
-        jQuery("#read_more").click(function(){
-    //        jQuery("#about_us").slideToggle();
-            $("#about_us").toggle();
-        });
-          
-        jQuery("#viewImagesBtn").click(function(){
-            jQuery("#allImages").toggle();
-        });      
-          
-        var coll = document.getElementsByClassName("about");
-          var i;
-    
-          for (i = 0; i < coll.length; i++) {
-          coll[i].addEventListener("click", function() 
-          {
-          this.classList.toggle("active");
-          var content = this.nextElementSibling;
-          if (content.style.maxHeight)
-          {
-          content.style.maxHeight = null;
-          } 
-          else {
-          content.style.maxHeight = content.scrollHeight + "px";
-          } 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="../js/custom.js"></script>
+    <script>
+      $("#about_us").toggle();      
+      jQuery("#allImages").toggle();      
+      
+          jQuery("#read_more").click(function(){
+      //        jQuery("#about_us").slideToggle();
+              $("#about_us").toggle();
           });
-        }
-  </script>
+            
+          jQuery("#viewImagesBtn").click(function(){
+              jQuery("#allImages").toggle();
+          });      
+            
+          var coll = document.getElementsByClassName("about");
+            var i;
+      
+            for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() 
+            {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight)
+            {
+            content.style.maxHeight = null;
+            } 
+            else {
+            content.style.maxHeight = content.scrollHeight + "px";
+            } 
+            });
+          }
+    </script>
+  </div>
+
 </body>
 
 </html>
