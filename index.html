@@ -10,13 +10,36 @@
   <!--stylesheet-->
   <link rel="stylesheet" href="assets/css/Select.css" type="text/css">
   <link rel="stylesheet" href="assets/css/main.css" type="text/css">
+  <!--
+  <link rel="stylesheet" href="assets/css/preloader.css" type="text/css">
+  -->
+  
+  
   <!--font-family-->
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans&amp;subset=devanagari" rel="stylesheet"> 
   
   <!--font-awesome-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"> </head>
 
-<body class="">
+<body>
+
+ <!--PRELOADER--
+ <div id='preloader'>
+  <div class='wrapper'>
+    <div class='preloader-wrapper large active'>
+      <div class='spinner-layer spinner-only'>
+        <div class='circle-clipper left'>
+          <div class='circle'></div>
+        </div>
+        <div class='gap-patch'>
+          <div class='circle'></div>
+        </div>
+	  </div>        	
+    </div>
+  </div>
+ </div>
+   <!--EOF PRELOADER-->     
+   
   <!--background image-->
   <div class="bg-primary p-5" style="background-image: url('assets/images/hindu-traditional-background-10.jpg');">
     <div class="container">
@@ -50,6 +73,17 @@
     </div>
   </div>
   
+  <!--
+  <script>
+	$(this).append(
+  '<div class="preloader-wrapper small active"><div class="spinner-layer spinner-green-only"><div class="circle-clipper left"><div class="circle"></div></div><div class="gap-patch"><div class="circle"></div></div><div class="circle-clipper right"><div class="circle"></div></div></div></div>'
+);
+setTimeout(function() {
+  document.getElementById("preloader").style.display = "none";
+}, 1000);
+
+	</script>
+	-->
 </body>
 
 </html>
