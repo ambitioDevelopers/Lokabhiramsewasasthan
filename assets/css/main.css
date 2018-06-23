@@ -6176,10 +6176,18 @@ html, body {
     content: ' ';
     background: linear-gradient(white, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)); }
 
+/* marqueescroll*/
+.scroll-marquee{
+  font-size: 20px;
+  font-weight: 200;
+  font-family: 'Noto Sans';
+  color: #FFF ;
+ background-color: #FBB204;
+}
 
 /* scrolling text */
 .scroll-left {
-  height: 50px;
+  height: 100px;
   overflow: hidden;
   position: relative;
   font-size: 24px;
@@ -6200,9 +6208,9 @@ html, body {
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
   /* Apply animation to this element */
-  -moz-animation: scroll-left 25s linear infinite;
-  -webkit-animation: scroll-left 25s linear infinite;
-  animation: scroll-left 25s linear infinite;
+  -moz-animation: scroll-left 15s linear infinite;
+  -webkit-animation: scroll-left 15s linear infinite;
+  animation: scroll-left 15s linear infinite;
 }
 /* Move it (define the animation) */
 @-moz-keyframes scroll-left {
@@ -6234,3 +6242,56 @@ html, body {
   }
 }
 
+/* switchbutton*/
+
+
+
+.scrolltop {
+	
+	
+	width:65px;
+	margin:0 auto;
+	position:fixed;
+	bottom:65px;
+	right:20px;
+	z-index: 100;
+}
+.scroll {
+	display:inline;
+	position:absolute;
+	right:20px;
+	bottom:20px;
+	background:#fff;
+	background:rgba(248,112,87,1.0);
+	padding:20px;
+	text-align: center;
+	margin: 0 0 0 0;
+	cursor:pointer;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 		
+}
+.scroll a{
+	text-decoration: none;
+}
+.scroll:hover {
+	background:rgba(193,30,0,1.0);
+	color: #fff;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 		
+}
+.scroll:hover .fa {
+	padding-top:-10px;
+}
+.scroll .fa {
+	font-size:18px;
+	margin-top:-5px;
+	margin-left:1px;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 	
+}
